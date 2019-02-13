@@ -4,7 +4,9 @@
         <meta charset="utf-8"s>
         <title>Coffee calculator</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<script type="text/javascript" src="js/script.js"></script>
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link rel="icon" href="favicon.png">
     </head>
 
     <body>
@@ -19,9 +21,20 @@
 				<p>Please enter how many cups of coffee you've drunk so far today:</p>
 				<div class="input-field">
 					<input type="text" id="cupsdrunk">
-					<input type="submit" value="Enter">
+					<input type="submit" value="enter" id="enter">
 				</div>
-				<p class="output"></p>
+				<p id="output"></p>
+				<div class="info">
+					<p>This is based on a cup size of 240ml. <br>
+					<strong>Note:</strong> caffeine content heavily depends on:</p>
+					<ul>
+						<li>Type of coffee beans</li>
+						<li>Roasting time</li>
+						<li>Type of coffee
+						(for example: 240ml of espresso is a lot more caffeine heavy than 240ml of cappuccino)</li>
+					</ul>
+					<p id="warn"><u>The upper safe limit of caffeine is around 400mg</u></p>
+				</div>
 			</section>
 		</div>
     </body>

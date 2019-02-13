@@ -19,6 +19,7 @@ header {
 	text-align: center;
 	line-height: 1.5;	
 	font-family: 'Oswald', sans-serif;
+	margin-bottom: 10%;
 }
 
 h1 {
@@ -39,3 +40,26 @@ p {
 .input-field {
 	margin: 10px;
 }
+
+#output {
+	margin-top: 40px;
+	color: #424242;
+	font-style: italic;
+}
+
+strong {
+	font-style: bold;
+	color: #2D4274;
+}
+
+
+li {
+	font-size: 2em;
+	text-align: left;
+}
+
+ul {
+	background: #4E6290;
+	width: 40%;
+	margin: auto;
+	}
