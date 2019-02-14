@@ -12,10 +12,11 @@ document.addEventListener("DOMContentLoaded", function() {
 		if (!isNaN(cups) && cups !== "") {
 			let totalCaffeine = cups * 94.8;
 			outputField.innerHTML = "In " + cups + " cups of coffee there is approximately: " + totalCaffeine + "mg of caffeine";
+			let infoField = document.getElementById("info").style.visibility = "visible";
 
-		if (totalCaffeine >= 400) {
-			document.getElementById("warn").style.color = "red";	
-		}
+			if (totalCaffeine >= 400) {
+				document.getElementById("warn").style.color = "red";	
+			}
 		} else {
 			outputField.innerHTML = "Please enter a number in the text box";
 		}

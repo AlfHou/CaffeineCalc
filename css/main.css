@@ -17,6 +17,8 @@ header {
 }
 .content {
 	text-align: center;
+	width: 70%;
+	margin: auto;
 	line-height: 1.5;	
 	font-family: 'Oswald', sans-serif;
 	margin-bottom: 10%;
@@ -25,11 +27,12 @@ header {
 h1 {
 	font-size: 5em;
 	margin: 0;
-	margin-bottom: 70px;
+	margin-bottom: 10px;
 }
 
 h2 {
 	font-size: 3em;
+	margin-bottom: 90px;
 }
 
 p {
@@ -38,7 +41,7 @@ p {
 }
 
 .input-field {
-	margin: 10px;
+	margin: 10px auto 90px auto;
 }
 
 #output {
@@ -60,6 +63,9 @@ li {
 
 ul {
 	background: #4E6290;
-	width: 40%;
 	margin: auto;
-	}
+}
+
+.info {
+	visibility: hidden;
+}
